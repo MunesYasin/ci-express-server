@@ -15,7 +15,7 @@
 
 ## drawing 
 
-!(img)[https://raw.githubusercontent.com/LTUC/amman-javascript-401d13/main/class-01b/whiteboard/ci-cd-tdd.png]
+![img](/mnt/c/Users/Munes/desktop/ci-express-server/img/draw.png)
 
 ## Links 
  
@@ -26,7 +26,7 @@ https://github.com/MunesYasin/ci-express-server/actions
  for dev branch : https://munesyasin-server-deploy-dev.herokuapp.com/ 
  for main branch : https://munesyasin-server-deploy-prod.herokuapp.com/ 
 
- 
+
 
 
   
