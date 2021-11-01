@@ -15,7 +15,7 @@
 
 ## drawing 
 
-![img](/mnt/c/Users/Munes/desktop/ci-express-server/img/draw.png)
+![img](https://raw.githubusercontent.com/LTUC/amman-javascript-401d13/main/class-01b/whiteboard/ci-cd-tdd.png)
 
 ## Links 
  
