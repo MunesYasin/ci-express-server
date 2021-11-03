@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "start": "node index.js",
-    "div": "nodemon index.js"
+    "init": "sequelize db:create",
+    "test": "NODE_ENV=test jest",
+    "start": "NODE-ENV=production node index.js",
+    "dev": "NODE_ENV=development nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,10 @@
   "dependencies": {
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "nodemon": "^2.0.14"
+    "nodemon": "^2.0.14",
+    "pg": "^8.7.1",
+    "sequelize": "^6.9.0",
+    "sqlite3": "^5.0.2"
   },
   "devDependencies": {
     "jest": "^27.3.1",

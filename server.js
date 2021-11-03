@@ -9,11 +9,21 @@ const PORT = process.env.PORT
 const notFound = require('./hundler/404')
 const not500 = require('./hundler/500')
 const stamper = require('./middleWare/stamper')
+const logger = require('./middleWare/logger')
+const people = require('./routes/people.routes')
+
+app.use(express.json());
+app.use(logger)
+app.use(people)
 
 
+/*
+app.get('/hello', (req,res)=>{
+    res.status(200).send('All is good')
+})
 
-app.get('/', (req,res)=>{
-    res.send('All is good')
+/*app.put('/hello', (req,res)=>{
+    res.status(200).send('All is good')
 })
 
 app.get('/data',stamper,(req,res)=>{
@@ -31,7 +41,7 @@ app.get('/bad',(req,res,next)=>{
 throw new Error('you made error')
 })
 
-
+*/
 
 
 
